@@ -104,7 +104,7 @@ fn main() {
 fn main(){
     let arr_2 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25];
     println!("1st : {}", arr_2[0]);
-    println!("Length : {}", arr_2.len());
+    println!("Length of list : {}", arr_2.len());
     let mut loop_idx = 0;
     loop{
         if arr_2[loop_idx] % 2 == 0 {
@@ -114,7 +114,7 @@ fn main(){
         if arr_2[loop_idx] == 23{
             break;
         }
-        println!("Val : {}", arr_2[loop_idx]);
+        println!("Value : {}", arr_2[loop_idx]);
         loop_idx += 1;
     }
 
